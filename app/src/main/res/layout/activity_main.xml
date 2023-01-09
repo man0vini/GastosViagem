@@ -13,14 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/distance" />
+        android:hint="@string/distance"
+        android:inputType="number" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-
         android:layout_marginTop="2dp"
+
+        android:gravity="center"
         android:text="@string/total_km" />
 
     <EditText
@@ -28,27 +29,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/price" />
+        android:hint="@string/price"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="2dp"
+        android:gravity="center"
         android:text="@string/price_per_liter" />
 
     <EditText
-        android:id="@+id/autonomy"
+        android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="@string/autonomy" />
+        android:hint="@string/autonomy"
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="2dp"
+        android:gravity="center"
         android:text="@string/kms_per_liter" />
 
     <TextView
