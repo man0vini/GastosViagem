@@ -9,5 +9,7 @@
     <string name="autonomy">Autonomia</string>
     <string name="total_spend">Seu gasto total sera de:</string>
     <string name="total_value">R$ 0</string>
-    <string name="calculate">Calcular</string>
+    <string name="calculate">Calcule</string>
+
+    <string name="validation_fill_all_fields">Preencha todos os dados</string>
 </resources>
